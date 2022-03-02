@@ -3,9 +3,9 @@
 one:
   title: MyString
   text: MyText
-  topic_id: one
+  topic: one
 
 two:
   title: MyString
   text: MyText
-  topic_id: two
+  topic: two

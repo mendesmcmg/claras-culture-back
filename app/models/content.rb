@@ -1,3 +1,3 @@
 class Content < ApplicationRecord
-  belongs_to :topic_id
+  belongs_to :topic
 end

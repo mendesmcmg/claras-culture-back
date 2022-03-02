@@ -3,7 +3,7 @@ class CreateContents < ActiveRecord::Migration[6.0]
     create_table :contents do |t|
       t.string :title
       t.text :text
-      t.references :topic_id, null: false, foreign_key: true
+      t.references :topic, null: false, foreign_key: true
 
       t.timestamps
     end
